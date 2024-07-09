@@ -314,3 +314,79 @@ iframe {
 }
 
 /* my_current_target_section ends here */
+
+/* support_section starts here */
+
+.support_section {
+    width: 80%;
+    height: 313px;
+    background-image: url("../assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 16px;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+}
+
+.support_section > h1{
+    width: 65%;
+    height: 36px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 0px;
+}
+.support_section > p{
+    width: 65%;
+    height: 52px;
+    opacity: 0.7;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.user_input {
+    padding-bottom: 40px;
+}
+
+.user_input > input {
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    /* border: 1px solid rgba(13, 19, 33, 0.15); */
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+
+.user_input > button {
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* support_section ends here */
+
