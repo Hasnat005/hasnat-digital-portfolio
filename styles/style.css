@@ -511,6 +511,10 @@ iframe {
     font-weight: 600;
 }
 
+.user_input > button {
+    cursor: pointer;
+}
+
 /* support_section ends here */
 
 /* footer starts here */
