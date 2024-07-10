@@ -522,6 +522,7 @@ footer {
     background: rgba(13, 19, 33, 0.03);
     display: flex;
     align-items: center;
+    margin-top: 80px;
 }
 
 footer > .content {
