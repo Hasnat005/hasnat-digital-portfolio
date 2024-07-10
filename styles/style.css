@@ -1,49 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 
 body {
-    font-family: "Azeret Mono", monospace;
-    margin : 0;
-    padding : 0;
+  font-family: "Azeret Mono", monospace;
+  margin: 0;
+  padding: 0;
 }
 
 /* navbar starts here */
 
 nav {
-    width: 100%;
-    height: 100px;
-    
+  width: 100%;
+  height: 100px;
 }
 #nav_content {
-    width: 80%;
-    height: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 #nav_content > .learn_more_btn {
-    width: 230px;
-    height: 58px;
-    box-sizing: border-box;
-    border: 1px solid rgb(13, 19, 33);
-    border-radius: 8px;
-    opacity: 0.8;
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 20px;
-    font-weight: 600;
+  width: 230px;
+  height: 58px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
 }
 #nav_content > h1 {
-    width: 114px;
-    height: 34px;
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 28px;
-    font-weight: 800;
+  width: 114px;
+  height: 34px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 28px;
+  font-weight: 800;
 }
 
 nav button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 /* navbar ends here */
@@ -51,398 +50,389 @@ nav button {
 /* contact_section starts here */
 
 .contact_section {
-    width: 100%;
-    height: 652px;
-    background-image: url('../assets/Hero-bg.png');
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-evenly;
+  width: 100%;
+  height: 652px;
+  background-image: url("../assets/Hero-bg.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .contact_section > img {
-    width: 240.28px;
-    height: 240px;
-
+  width: 240.28px;
+  height: 240px;
 }
 
 .contact_section > h1 {
-    width: 1300px;
-    height: 136px;
-    text-align: center;
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 48px;
-    font-weight: 800;
-    margin-bottom: 0px;
+  width: 1300px;
+  height: 136px;
+  text-align: center;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 0px;
 }
 
 .contact_section > p {
-    width: 1300px;
-    height: 52px;
-    opacity: 0.7;
-    text-align: center;
-    margin-top: 0px;
+  width: 1300px;
+  height: 52px;
+  opacity: 0.7;
+  text-align: center;
+  margin-top: 0px;
 }
 
 .contact_section > a > button {
-    width: 250px;
-    height: 66px;
-    text-align: center;
-    border-radius: 8px;
-    background: rgb(13, 19, 33);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 21px 24px 21px 24px;
+  width: 250px;
+  height: 66px;
+  text-align: center;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 21px 24px 21px 24px;
 }
 .contact_section > a > button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .btn_content {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
-    font-size: 20px;
-    font-weight: 600;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .btn_content {
-    width: 200px;
-    height: 24px;
+  width: 200px;
+  height: 24px;
 }
 
 .contact_section > a {
-    text-decoration: none;
+  text-decoration: none;
 }
 /* contact_section ends here */
 
 /* why_web_dev_section starts here */
 
 .why_web_dev_section {
-    width: 80%;
-    height: 1395px;
-    border-radius: 16px;
-    background: rgba(13, 19, 33, 0.02);
-    margin: 0 auto;
-    margin-top: 70px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+  width: 80%;
+  height: 1395px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  margin: 0 auto;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .question {
-    width: 852px;
-    height: 115px;
-    /* border: 2px solid red; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: -20px;
+  width: 852px;
+  height: 115px;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -20px;
 }
 
 .question > h1 {
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 32px;
-    font-weight: 800;
-
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
 }
 
 .question > p {
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    text-align: center;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
 }
 
 .answer_1 {
-    width: 83%;
-    height: 336px;
-    border-radius: 16px;
-    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-    /* border: 2px solid red; */
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: -32px;
-    /* border: 2px solid red; */
+  width: 83%;
+  height: 336px;
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: -32px;
+  /* border: 2px solid red; */
 }
 
 .left_side_content {
-    width: 50%;
-    height: 220px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    /* border: 2px solid red; */
-    
+  width: 50%;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 2px solid red; */
 }
 
-
 .left_side_content > h3 {
-    width: 100%;
-    height: 72px;
-    color: rgba(13, 19, 33, 0.7);
-    font-family: Azeret Mono;
-    font-size: 24px;
-    font-weight: 700;
-    margin-top: 0px;
-    margin-bottom: 0px;
+  width: 100%;
+  height: 72px;
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .left_side_content > p {
-    width: 100%;
-    height: 52px;
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    opacity: 0.7;
-    margin-top: 0px;
-    margin-bottom: 0px;
+  width: 100%;
+  height: 52px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
-
 
 .learn_more_btn {
-    width: 120px;
-    height: 40px;
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 15px;
-    font-weight: 500;
-    box-sizing: border-box;
-    border: 1px solid rgb(13, 19, 33);
-    opacity: 0.7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 120px;
+  height: 40px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 15px;
+  font-weight: 500;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
 .right_side_content {
-    width: 27%;
-    height: 217.01px;
-    /* border: 2px solid red; */
-
+  width: 27%;
+  height: 217.01px;
+  /* border: 2px solid red; */
 }
 
 .left_side_content_2 {
-    width: 60%;
-    height: 220px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  width: 60%;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-
 .left_side_content_2 > h3 {
-    width: 100%;
-    height: 72px;
-    color: rgba(13, 19, 33, 0.7);
-    font-family: Azeret Mono;
-    font-size: 24px;
-    font-weight: 700;
-    margin-top: 0px;
-    margin-bottom: 0px;
+  width: 100%;
+  height: 72px;
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .left_side_content_2 > p {
-    width: 100%;
-    height: 52px;
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    opacity: 0.7;
-    margin-top: 0px;
-    margin-bottom: 0px;
+  width: 100%;
+  height: 52px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .right_side_content_2 {
-    width: 25%;
-    height: 217.01px;
-    /* border: 2px solid red; */
-    margin-left: 25px;
+  width: 25%;
+  height: 217.01px;
+  /* border: 2px solid red; */
+  margin-left: 25px;
 }
 
 .why_web_dev_section a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .why_web_dev_section button {
-    cursor: pointer;
+  cursor: pointer;
 }
-
-
 
 /* why_web_dev_section ends here */
 
 /* my_inspiration_section starts here */
 
 .my_inspiration_section {
-    width: 80%;
-    height: 775px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 70px;
-    
+  width: 80%;
+  height: 775px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 70px;
 }
-.my_inspiration_section > h1{
-    height: 37px;
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 32px;
-    font-weight: 800;
-    text-align: center;
+.my_inspiration_section > h1 {
+  height: 37px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
 }
-.my_inspiration_section > p{
-    width: 75%;
-    height: 52px;
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    opacity: 0.7;
-    text-align: center;
+.my_inspiration_section > p {
+  width: 75%;
+  height: 52px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  text-align: center;
 }
-.my_inspiration_section > .video_from_youtube{
-    width: 100%;
-    height: 614px;
-    box-sizing: border-box;
-    border: 1px solid rgba(13, 19, 33, 0.2);
-    border-radius: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.my_inspiration_section > .video_from_youtube {
+  width: 100%;
+  height: 614px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 iframe {
-    width: 95%;
-    height: 550px;
-    border-radius: 16px;
+  width: 95%;
+  height: 550px;
+  border-radius: 16px;
 }
 /* my_inspiration_section ends here */
 
 /* my_current_target_section starts here */
 
 .my_current_target_section {
-    width: 80%;
-    height: 460px;
-    margin: 0 auto;
-    margin-top: 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+  width: 80%;
+  height: 460px;
+  margin: 0 auto;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
-.my_current_target_section > h1{
-    width: 100%;
-    height: 37px;
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 32px;
-    font-weight: 800;
-    text-align: center;
+.my_current_target_section > h1 {
+  width: 100%;
+  height: 37px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
 }
-.my_current_target_section > p{
-    width: 75%;
-    height: 52px;
-    opacity: 0.7;
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    text-align: center;
+.my_current_target_section > p {
+  width: 75%;
+  height: 52px;
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
 }
 
 .skills_container {
-    width: 100%;
-    height: 300px;
-    display: flex;
-    justify-content: space-around;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .box {
-    width: 32%;
-    height: 300px;
-    border-radius: 16px;
-    background: rgba(255, 76, 30, 0.05);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top : 20px;
-    padding-bottom: 10px;
+  width: 32%;
+  height: 300px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
-
 
 .inner_box {
-    width: 80%;
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .inner_box > img {
-    /* width: 39.68px;
+  /* width: 39.68px;
     height: 45px; */
-    width: 56px;
-    height: 56px;
+  width: 56px;
+  height: 56px;
 }
 .inner_box > h3 {
-    width: 100%;
-    height: 36px;
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 24px;
-    font-weight: 800;
-    margin-top: 32px;
-    margin-bottom: 0px;
-    /* padding: 5px; */
+  width: 100%;
+  height: 36px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 32px;
+  margin-bottom: 0px;
+  /* padding: 5px; */
 }
 .inner_box > p {
-    width: 100%;
-    height: 52px;
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    opacity: 0.7;
+  width: 100%;
+  height: 52px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
 }
 
 .inner_box > h4 {
-    width: 284px;
-    height: 19px;
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 700;
+  width: 284px;
+  height: 19px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .skills_container a {
-    width: 284px;
-    height: 19px;
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 700;
+  width: 284px;
+  height: 19px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .skills_container > #box1 {
-    background: rgba(0, 76, 232, 0.05);
+  background: rgba(0, 76, 232, 0.05);
 }
 .skills_container > #box2 {
-    background: rgba(255, 223, 0, 0.05);
+  background: rgba(255, 223, 0, 0.05);
 }
 
 /* my_current_target_section ends here */
@@ -450,79 +440,79 @@ iframe {
 /* support_section starts here */
 
 .support_section {
-    width: 80%;
-    height: 313px;
-    background-image: url("../assets/handshake.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 auto;
-    margin-top: 100px;
-    border-radius: 16px;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: overlay;
+  width: 80%;
+  height: 313px;
+  background-image: url("../assets/handshake.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 16px;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
 }
 
-.support_section > h1{
-    width: 65%;
-    height: 36px;
-    color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
-    font-size: 32px;
-    font-weight: 700;
-    text-align: center;
-    padding-top: 40px;
-    margin-bottom: 0px;
+.support_section > h1 {
+  width: 65%;
+  height: 36px;
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 40px;
+  margin-bottom: 0px;
 }
-.support_section > p{
-    width: 65%;
-    height: 52px;
-    opacity: 0.7;
-    color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    text-align: center;
-    margin-top: 0px;
+.support_section > p {
+  width: 65%;
+  height: 52px;
+  opacity: 0.7;
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0px;
 }
 
 .user_input {
-    padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 .user_input > input {
-    width: 548px;
-    height: 57px;
-    padding: 20px;
-    box-sizing: border-box;
-    /* border: 1px solid rgba(13, 19, 33, 0.15); */
-    border-radius: 8px;
-    background: rgb(255, 255, 255);
-    color: rgba(13, 19, 33, 0.4);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    border: none;
+  width: 548px;
+  height: 57px;
+  padding: 20px;
+  box-sizing: border-box;
+  /* border: 1px solid rgba(13, 19, 33, 0.15); */
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  color: rgba(13, 19, 33, 0.4);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
 }
 
 .user_input > button {
-    width: 120px;
-    height: 57px;
-    border-radius: 8px;
-    background: rgb(255, 255, 255);
-    border: none;
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 20px;
-    font-weight: 600;
+  width: 120px;
+  height: 57px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  border: none;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .user_input > button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 /* support_section ends here */
@@ -530,34 +520,34 @@ iframe {
 /* footer starts here */
 
 footer {
-    height: 100px;
-    width: 100%;
-    border-radius: 16px;
-    background: rgba(13, 19, 33, 0.03);
-    display: flex;
-    align-items: center;
-    margin-top: 80px;
+  height: 100px;
+  width: 100%;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
 }
 
 footer > .content {
-    width: 80%;
-    height: 36px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+  width: 80%;
+  height: 36px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 .content > h1 {
-    width: 40%;
-    height: 24px;
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 20px;
-    font-weight: 600;
+  width: 40%;
+  height: 24px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .social_media {
-    width: 13%;
-    display: flex;
-    justify-content: space-between;
+  width: 13%;
+  display: flex;
+  justify-content: space-between;
 }
 /* footer ends here */
