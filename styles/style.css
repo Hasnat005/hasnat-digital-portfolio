@@ -83,7 +83,7 @@ nav {
     margin-top: 0px;
 }
 
-.contact_section > button {
+.contact_section > a > button {
     width: 250px;
     height: 66px;
     text-align: center;
@@ -95,8 +95,11 @@ nav {
     align-items: center;
     padding: 21px 24px 21px 24px;
 }
+.contact_section > a > button {
+    cursor: pointer;
+}
 
-.btn_content > a {
+.btn_content {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-family: Azeret Mono;
@@ -109,7 +112,9 @@ nav {
     height: 24px;
 }
 
-
+.contact_section > a {
+    text-decoration: none;
+}
 /* contact_section ends here */
 
 /* why_web_dev_section starts here */
