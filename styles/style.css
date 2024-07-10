@@ -428,6 +428,13 @@ iframe {
     font-weight: 700;
 }
 
+.skills_container > #box1 {
+    background: rgba(0, 76, 232, 0.05);
+}
+.skills_container > #box2 {
+    background: rgba(255, 223, 0, 0.05);
+}
+
 /* my_current_target_section ends here */
 
 /* support_section starts here */
