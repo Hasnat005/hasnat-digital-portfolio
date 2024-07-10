@@ -42,6 +42,9 @@ nav {
     font-weight: 800;
 }
 
+nav button {
+    cursor: pointer;
+}
 
 /* navbar ends here */
 
